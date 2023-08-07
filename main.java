@@ -202,7 +202,7 @@ class PepperChatbot extends BaseChatbot {
 
 class Advisor {
     private static final String API_ENDPOINT = "https://abdelhadi-hireche.steamship.run/pepper-ai-mind-bot-402/pepper-ai-mind-bot-402/answer";
-    private static final String AUTHORIZATION_HEADER = "Bearer 26721291-D416-4C30-AA6A-304FC4E0BC5F";
+    private static final String AUTHORIZATION_HEADER = "Bearer API_KEY";
 
     public String answerQuestion(String question) {
         String requestPayload = "{\"question\":\"" + question + "\"}";
