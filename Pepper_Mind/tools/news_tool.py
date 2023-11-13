@@ -15,7 +15,7 @@ import json
 import urllib.request
 from urllib.parse import quote
 
-apikey = "ffa7269c28ca530961d8eb7edf0bb3e4"
+apikey = "API_KEY"
 
 
 
